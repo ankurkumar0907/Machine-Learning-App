@@ -73,7 +73,7 @@ if (selected == "Heart Disease prediction"):
                                                                int(max_heart_rate),int(exercise_induced_angina),float(oldpeak),
                                                                int(ST_segment),int(major_vessels),int(thal)]])
         if (Heart_disease_Predict[0]==1):
-            dignosis = 'Heart Disease Absence'
+            dignosis = 'Heart Disease Not Found'
         else :
             dignosis = 'Heart Disease Presence'
     st.success(dignosis)
